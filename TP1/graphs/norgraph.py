@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 G = nx.Graph()
 
 
-a = int(input("Combien de sommets ? "))
+a = int(input("Combien de sommets ?"))
 print("Entrez les noms des sommets :")
 for i in range(a):
     node = input(f"S{i+1}: ")
