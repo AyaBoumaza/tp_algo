@@ -1,5 +1,4 @@
- 
-#Rotation
+ #Rotation
     def rotate_right(self, y, logs=None):
         x = y.left
         T2 = x.right
