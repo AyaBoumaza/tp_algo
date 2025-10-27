@@ -1,6 +1,5 @@
-# Rotations ET insertion d'un treap
+# Rotation et insertion 
 #Rotation
-    # ------------------------
     def rotate_right(self, y, logs=None):
         x = y.left
         T2 = x.right
