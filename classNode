@@ -1,0 +1,26 @@
+class TreapNode:
+    def __init__(self, key, priority):
+        self.key = key
+        self.priority = priority
+        self.left = None
+        self.right = None
+
+    def __repr__(self):
+        return f"({self.key}, p={self.priority})" 
+
+class Treap:
+    def __init__(self):
+        self.root = None 
+
+
+
+
+1)key → la valeur utilisée pour le tri BST
+ • priority → une valeur (souvent aléatoire) utilisée pour maintenir l’équilibre
+ • left / right → pointeurs vers les enfants gauche et droit 
+
+
+2) Le repr est juste pour l’affichage lisible du nœud, par exemple (8, p=57)
+
+
+3)Le treap commence vide, avec une racine None
